@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: anriisapp-final
     routes:
-      - route: $HOST.$DOMAIN
+      - route: anriisapp-finalh.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: anriisapp-final-nginx
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: anriisapp-finalh.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
