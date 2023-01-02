@@ -13,9 +13,9 @@
     <body>
         <form action="{% url 'djangoapp:add_review' dealer_id %}" method="post" class="mt-4">
             <div class="container">
-                <label class="mt-3" for="name">Your Name</label>
+                <label class="mt-3" for="name">Type your Name</label>
                 <input class="form-control" type="text" name="name" id="name">
-                <label class="mt-3" for="content">Your Review:</label>
+                <label class="mt-3" for="content">Type your Review:</label>
                 <textarea class="form-control" id="content" name="content" rows="2" required></textarea>
                 <button class="btn btn-primary mt-4" type="submit">Submit review</button>
            <div class="container">
